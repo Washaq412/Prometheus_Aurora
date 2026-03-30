@@ -1,0 +1,5 @@
+{
+  "name": "prometheus_status",
+  "description": "Get Prometheus server build/runtime info",
+  "parameters": {}
+}
