@@ -1,0 +1,32 @@
+{
+  "type": "object",
+  "title": "PrometheusConnector",
+  "properties": {
+    "db_url": {
+      "type": "string",
+      "description": "Base URL of the Prometheus server (e.g., https://prometheus.example.com)"
+    },
+    "username": {
+      "type": "string",
+      "description": "Optional username for basic authentication"
+    },
+    "password": {
+      "type": "string",
+      "description": "Optional password for basic authentication"
+    },
+    "token": {
+      "type": "string",
+      "description": "Optional bearer token for token-based authentication"
+    },
+    "tls": {
+      "type": "object",
+      "description": "Optional TLS/SSL configuration",
+      "properties": {
+        "ca_cert": { "type": "string", "description": "CA certificate" },
+        "client_cert": { "type": "string", "description": "Client certificate" },
+        "client_key": { "type": "string", "description": "Client private key" }
+      }
+    }
+  },
+  "required": ["db_url"]
+}
