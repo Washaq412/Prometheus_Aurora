@@ -1,0 +1,10 @@
+{
+  "name": "prometheus_query",
+  "description": "Run a PromQL query against Prometheus",
+  "parameters": {
+    "query": "string",
+    "start": "string (ISO8601, optional)",
+    "end": "string (ISO8601, optional)",
+    "step": "string (duration, optional)"
+  }
+}
