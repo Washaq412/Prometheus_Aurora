@@ -1,0 +1,5 @@
+{
+  "name": "prometheus_list_metrics",
+  "description": "List available metric names from Prometheus",
+  "parameters": {}
+}
